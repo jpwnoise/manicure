@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "Nail Studio GDL",
     images: [
       {
-        url: "https://tusitio.com/hero2.jpg",
+        url: "https://manicure-five.vercel.app/hero2.jpg",
         width: 1200,
         height: 630,
       },
