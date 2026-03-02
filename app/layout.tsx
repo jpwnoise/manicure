@@ -13,18 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://manicure-five.vercel.app"),
+
   title: "Studio de Uñas en Guadalajara | Diseño Profesional 💅",
   description:
     "Reserva tus uñas profesionales en Guadalajara. Diseños únicos, gelish, acrílicas y más.",
+
   openGraph: {
     title: "Studio de Uñas en Guadalajara 💅",
     description:
       "Diseños únicos que resaltan tu estilo. Agenda tu cita hoy.",
-    url: "https://manicure-five.vercel.app/",
+    url: "/",
     siteName: "Nail Studio GDL",
     images: [
       {
-        url: "https://manicure-five.vercel.app/preview.png",
+        url: "/preview.png",
         width: 1200,
         height: 630,
       },
@@ -32,7 +35,15 @@ export const metadata: Metadata = {
     locale: "es_MX",
     type: "website",
   },
-}
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Studio de Uñas en Guadalajara 💅",
+    description:
+      "Diseños únicos que resaltan tu estilo. Agenda tu cita hoy.",
+    images: ["/preview.png"],
+  },
+};
 
 export default function RootLayout({
   children,
