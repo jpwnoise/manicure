@@ -20,7 +20,7 @@ export const metadata = {
     title: "Studio de Uñas en Guadalajara 💅",
     description:
       "Diseños únicos que resaltan tu estilo. Agenda tu cita hoy.",
-    url: "https://tusitio.com",
+    url: "https://manicure-five.vercel.app",
     siteName: "Nail Studio GDL",
     images: [
       {
