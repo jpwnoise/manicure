@@ -12,10 +12,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Bussines Nails",
-  description: "Manicure profesional",
-};
+export const metadata = {
+  title: "Studio de Uñas en Guadalajara | Diseño Profesional 💅",
+  description:
+    "Reserva tus uñas profesionales en Guadalajara. Diseños únicos, gelish, acrílicas y más.",
+  openGraph: {
+    title: "Studio de Uñas en Guadalajara 💅",
+    description:
+      "Diseños únicos que resaltan tu estilo. Agenda tu cita hoy.",
+    url: "https://tusitio.com",
+    siteName: "Nail Studio GDL",
+    images: [
+      {
+        url: "https://tusitio.com/hero2.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "es_MX",
+    type: "website",
+  },
+}
 
 export default function RootLayout({
   children,
